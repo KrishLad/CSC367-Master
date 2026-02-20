@@ -205,5 +205,5 @@ def graph(mode, filter = "3x3"):
     ylabel
   )
 
-graph('time')
-graph('l1d_loadmisses')
+graph('time','5x5')
+graph('l1d_loadmisses','5x5')

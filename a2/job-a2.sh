@@ -6,4 +6,5 @@
 #SBATCH --output=a2_%j.out
 
 module load scipy-stack/2025a
-python3 perfs_student.py
+python3 run.py
+echo DONE
